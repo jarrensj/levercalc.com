@@ -12,8 +12,15 @@ export default function Home() {
         </p>
         <Calculator />
       </main>
-      <footer className="text-center p-4">
-        <Link href="https://omakasemoney.com">omakase money</Link>
+      <footer className="flex justify-center items-center h-20">
+        <div className="flex flex-col items-center">
+          <p>
+            code by{" "}
+            <Link href="https://kwaji.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
+              kwaji
+            </Link>
+          </p>
+        </div>
       </footer>
     </div>
   )
