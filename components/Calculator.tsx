@@ -43,6 +43,7 @@ const Calculator = () => {
        type="number"
        className="mb-2 w-25 py-1 text-lg text-center border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
        value={ethValue}
+       min="0"
        onChange={handleEthInputChange}
       />
       <p className="text-sm mb-2">
@@ -54,6 +55,7 @@ const Calculator = () => {
        type="number"
        className="mb-2 w-25 py-1 text-lg text-center border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
        value={dailyInterestValue}
+       min="0"
        onChange={handleInterestInputChange}
       />
       <p className="text-sm mb-2">
@@ -65,6 +67,7 @@ const Calculator = () => {
        type="number"
        className="mb-2 w-25 py-1 text-lg text-center border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
        value={daysValue}
+       min="0"
        onChange={handleDaysInputChange}
       />
       {result > 0 && (
