@@ -6,8 +6,8 @@ import { Analytics } from '@vercel/analytics/react';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'calculator',
-  description: 'calculator',
+  title: 'lever calc',
+  description: 'A simple calculator to help you calculate the interest on leveraged trades.'
 }
 
 export default function RootLayout({
