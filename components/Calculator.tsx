@@ -55,7 +55,7 @@ const Calculator = () => {
   return (
     <div>
       {/* ETH Input */}
-      <p className="text-sm mb-2">type the <span className="text-blue-500">eth (pay later amount)</span> in the input box below</p>
+      <p className="text-sm mb-2">type the <span className="text-pink-400">eth (pay later amount)</span> in the input box below</p>
       <input
         type="number"
         className={`mb-2 w-25 py-1 text-lg text-center border ${isEthValid ? 'border-gray-300' : 'border-red-500'} rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500`}
@@ -66,7 +66,7 @@ const Calculator = () => {
       {!isEthValid && <p className="text-red-500 text-sm">Please enter a valid ETH amount (&gt;=0).</p>}
 
       {/* Daily Interest Input */}
-      <p className="text-sm mb-2">type the <span className="text-blue-500">daily interest %</span> in the input box below</p>
+      <p className="text-sm mb-2">type the <span className="text-pink-400">daily interest %</span> in the input box below</p>
       <input
         type="number"
         className={`mb-2 w-25 py-1 text-lg text-center border ${isInterestValid ? 'border-gray-300' : 'border-red-500'} rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500`}
@@ -77,7 +77,7 @@ const Calculator = () => {
       {!isInterestValid && <p className="text-red-500 text-sm">Please enter a valid interest rate (&gt;=0%).</p>}
 
       {/* Days Input */}
-      <p className="text-sm mb-2">type the <span className="text-blue-500">days</span> in the input box below</p>
+      <p className="text-sm mb-2">type the <span className="text-pink-400">days</span> in the input box below</p>
       <input
         type="number"
         className={`mb-2 w-25 py-1 text-lg text-center border ${isDaysValid ? 'border-gray-300' : 'border-red-500'} rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500`}
