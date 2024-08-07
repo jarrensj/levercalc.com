@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'lever calc',
-  description: 'A simple calculator to help you calculate the interest on leveraged trades.'
+  description: 'This is a leverage calculator. A calculator to help you calculate the interest on leveraged trades.',
 }
 
 export default function RootLayout({
